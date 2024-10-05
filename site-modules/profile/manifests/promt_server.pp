@@ -1,4 +1,4 @@
-# install prometheus server
+# in
 class profile::promt_server {
   class { 'prometheus::server':
     version        => '2.54.1',
@@ -26,15 +26,26 @@ class profile::promt_server {
     },
     scrape_configs => [
       {
-        'job_name'        => 'Puppet-Enterprise',
+        'job_name'        => 'prometheus',
         'scrape_interval' => '10s',
         'scrape_timeout'  => '10s',
         'static_configs'  => [
           {
-            'targets' => ['pe2023.harshamlab.site:9090'],
+            'targets' => ['localhost:9090'],
             'labels'  => {
-              'alias' => 'pe2023',
+              'alias' => 'Prometheus',
             },
+          },
+        ],
+      },
+      {
+        'job_name'        => 'node',
+        'scrape_interval' => '5s',
+        'scrape_timeout'  => '5s',
+        'static_configs'  => [
+          {
+            'targets' => ['pe2023.harshamlab.site:9100'],
+            'labels'  => { 'alias' => 'pe2023.harshamlab.site' },
           },
         ],
       },
