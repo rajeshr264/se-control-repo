@@ -26,14 +26,14 @@ class profile::promt_server {
     },
     scrape_configs => [
       {
-        'job_name'        => 'prometheus',
+        'job_name'        => 'Puppet-Enterprise',
         'scrape_interval' => '10s',
         'scrape_timeout'  => '10s',
         'static_configs'  => [
           {
-            'targets' => ['localhost:9090'],
+            'targets' => ['pe2023.harshamlab.site:9090'],
             'labels'  => {
-              'alias' => 'Prometheus',
+              'alias' => 'pe2023',
             },
           },
         ],
