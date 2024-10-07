@@ -40,8 +40,8 @@ class profile::promt_server {
       },
       {
         'job_name'        => 'node',
-        'scrape_interval' => '5s',
-        'scrape_timeout'  => '5s',
+        'scrape_interval' => '30s',
+        'scrape_timeout'  => '30s',
         'static_configs'  => [
           {
             'targets' => ['pe2023.harshamlab.site:9100'],
