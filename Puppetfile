@@ -10,7 +10,8 @@ mod 'puppet-archive', '7.1.0'
 mod 'puppetlabs-puppet_data_connector', '1.0.0'
 mod 'puppet-prometheus', '15.0.0'
 mod 'puppet-grafana', '14.1.0'
-
+mod 'puppetlabs-docker', '10.0.1'
+mod 'puppetlabs-apt', '8.0.0'
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 #mod 'apache',
