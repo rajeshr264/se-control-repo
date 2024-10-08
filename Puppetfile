@@ -12,6 +12,9 @@ mod 'puppet-prometheus', '15.0.0'
 mod 'puppet-grafana', '14.1.0'
 mod 'puppetlabs-docker', '10.0.1'
 mod 'puppetlabs-apt', '8.0.0'
+mod 'puppetlabs-sce_linux', '2.1.0'
+mod 'puppetlabs-ntp', '10.1.0'
+
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 #mod 'apache',
