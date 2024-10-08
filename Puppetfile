@@ -16,7 +16,6 @@ mod 'puppetlabs-puppet_data_connector', '1.0.0'
 mod 'puppet-prometheus', '15.0.0'
 mod 'puppet-grafana', '14.1.0'
 mod 'puppetlabs-docker', '10.0.1'
-mod 'puppetlabs-sce_linux', '2.1.0'
 mod 'puppetlabs-ntp', '10.1.0'
 
 # Modules from Git
