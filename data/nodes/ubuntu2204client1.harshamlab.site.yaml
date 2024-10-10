@@ -9,3 +9,4 @@ sce_linux::config:
     - 'ensure_the_selinux_mode_is_not_disabled'
     - 'ensure_selinux_policy_is_configured'
     - 'ensure_the_selinux_mode_is_enforcing'
+    - 'ensure_access_to_all_logfiles_has_been_configured'
