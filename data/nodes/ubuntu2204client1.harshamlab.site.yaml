@@ -10,12 +10,12 @@ sce_linux::config:
     - 'ensure_selinux_policy_is_configured'
     - 'ensure_the_selinux_mode_is_enforcing'
     - 'ensure_access_to_all_logfiles_has_been_configured'
-    - 'ensure_permissions_on_etcsshsshd_config_are_configured':
-    - 'ensure_sshd_access_is_configured':
-    - 'ensure_sshd_loglevel_is_configured':
-    - 'ensure_sshd_usepam_is_enabled':
-    - 'ensure_sshd_permitrootlogin_is_disabled':
-    - 'ensure_sshd_hostbasedauthentication_is_disabled':
-    - 'ensure_sshd_permitemptypasswords_is_disabled':
-    - 'ensure_sshd_permituserenvironment_is_disabled':
-    - 'ensure_sshd_ignorerhosts_is_enabled':
+    - 'ensure_permissions_on_etcsshsshd_config_are_configured'
+    - 'ensure_sshd_access_is_configured'
+    - 'ensure_sshd_loglevel_is_configured'
+    - 'ensure_sshd_usepam_is_enabled'
+    - 'ensure_sshd_permitrootlogin_is_disabled'
+    - 'ensure_sshd_hostbasedauthentication_is_disabled'
+    - 'ensure_sshd_permitemptypasswords_is_disabled'
+    - 'ensure_sshd_permituserenvironment_is_disabled'
+    - 'ensure_sshd_ignorerhosts_is_enabled'
