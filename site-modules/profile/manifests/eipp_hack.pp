@@ -4,7 +4,7 @@ class profile::eipp_hack {
     'Linux': {
       cron {
         'eipp_hack':
-          command => 'if [ -d /var/log/apt/eipp.log.gz ]; then chmod 0640 /var/log/apt/eipp.log.gz; fi',
+          command => 'if [ -d /var/log/apt/eipp.log.xz ]; then chmod 0640 /var/log/apt/eipp.log.xz; fi',
           user    => 'root',
           minute  => '*',
           hour   => '*',
