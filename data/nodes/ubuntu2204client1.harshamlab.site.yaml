@@ -19,3 +19,7 @@ sce_linux::config:
     - 'ensure_sshd_permitemptypasswords_is_disabled'
     - 'ensure_sshd_permituserenvironment_is_disabled'
     - 'ensure_sshd_ignorerhosts_is_enabled'
+  control_configs:
+    - 'ensure_access_to_all_logfiles_has_been_configured'
+      mode: '0600'
+        - 
